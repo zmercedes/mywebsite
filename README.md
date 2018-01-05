@@ -1,0 +1,1 @@
+Making my portfolio website! Also practice with python and django.

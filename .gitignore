@@ -1,0 +1,8 @@
+# Directories
+Include/
+Lib/
+Scripts/
+
+# Specific Files
+pip-selfcheck.json
+pyvenv.cfg
