@@ -6,6 +6,7 @@ Progress thus far:
 3. added html response on visit
 4. added template response on visit using src/templates/base.html
 5. added template inheritance 
+6. added snippets to use include with
 
 To Do:
 1. Understand django apps

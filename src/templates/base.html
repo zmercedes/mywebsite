@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<h1> Zoilo Mercedes </h1>
+		<title> zoilo.me </title>
+		{% include 'snippets/css.html' %}
+		<div class='container'><h1> Zoilo Mercedes </h1></div>
 	</head>
 	<body>
-		<div class='content'>
+		<div class='container'>
 			{% block content %}{% endblock content %}
 		</div>
+		{% include 'snippets/js.html' %}
 	</body>
 </html>
