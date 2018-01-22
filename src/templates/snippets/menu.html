@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Zoilo.Me
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">About</a>
+    <a class="dropdown-item" href="#">Projects</a>
+    <a class="dropdown-item" href="#">Contact</a>
+  </div>
+</div>
+<div align="center" class="video-container">
+    <video autoplay loop class="embed-responsive-item" id="video-bg">
+        <source src="/static/dragonting2.mp4" type="video/mp4"> </source>
+    </video>
+</div>
+
+{% endblock content %}

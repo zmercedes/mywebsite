@@ -5,4 +5,4 @@ def home(request):
 	context = {
 		"html_var": "eyyyyy"
 	}	
-	return render(request,"home.html",context) # response
+	return render(request,"snippets/menu.html",context) # response

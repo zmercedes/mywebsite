@@ -541,34 +541,7 @@
 			"file": "src/mywebsite/urls.py",
 			"settings":
 			{
-				"buffer_size": 821,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 84,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 320,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/base.html",
-			"settings":
-			{
-				"buffer_size": 112,
+				"buffer_size": 955,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -598,6 +571,82 @@
 				"buffer_size": 3122,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 397,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 84,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 433,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/bootstrap/example.html",
+			"settings":
+			{
+				"buffer_size": 1111,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/snippets/css.html",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/snippets/js.html",
+			"settings":
+			{
+				"buffer_size": 586,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{% extends \"base.html\" %}\n\n{% block content %}\n<div class=\"dropdown show\">\n  <a class=\"btn btn-secondary dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n    smdftb\n  </a>\n\n  <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuLink\">\n    <a class=\"dropdown-item\" href=\"#\">About</a>\n    <a class=\"dropdown-item\" href=\"#\">Projects</a>\n    <a class=\"dropdown-item\" href=\"#\">Contact</a>\n  </div>\n</div>\n\n{% endblock content %}",
+			"file": "src/templates/snippets/menu.html",
+			"file_size": 495,
+			"file_write_time": 131609389232859788,
+			"settings":
+			{
+				"buffer_size": 506,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<div class=\"dropdown show\">"
 			}
 		}
 	],
@@ -635,10 +684,14 @@
 	[
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/sitelist"
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/sitelist",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets"
 	],
 	"file_history":
 	[
+		"/C/Users/Zoilo/Documents/Sprites_Unity/Assets/scripts/professorController.cs",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets/sidebar.html",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/requirements.txt",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/somelist/views.py",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/LICENSE",
@@ -764,13 +817,11 @@
 		"/C/Users/Zoilo/Dropbox/code/generatePickup.cs",
 		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/meshGen.cs",
 		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/mapGen.cs",
-		"/C/Users/Zoilo/Dropbox/code/controller.cs",
-		"/C/Users/Zoilo/Documents/zelda_mockup/Assets/_scripts/controller.cs",
-		"/C/Users/Zoilo/Desktop/get-pip.py"
+		"/C/Users/Zoilo/Dropbox/code/controller.cs"
 	],
 	"find":
 	{
-		"height": 50.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -944,7 +995,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -972,7 +1023,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1000,7 +1051,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1009,15 +1060,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 821,
+						"buffer_size": 955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								723,
-								723
+								948,
+								948
 							]
 						],
 						"settings":
@@ -1025,7 +1076,7 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 269.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -1033,90 +1084,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 84,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 320,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "src/mywebsite/settings/base.py",
 					"semi_transient": false,
 					"settings":
@@ -1139,14 +1106,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "src/mywebsite/settings/production.py",
 					"semi_transient": false,
 					"settings":
@@ -1169,14 +1136,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "src/mywebsite/settings/local.py",
 					"semi_transient": false,
 					"settings":
@@ -1199,10 +1166,244 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1215.0,
+						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 84,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/templates/bootstrap/example.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/templates/snippets/css.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/templates/snippets/js.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/templates/snippets/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								506,
+								506
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div class=\"dropdown show\">",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1210,11 +1411,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 49.0
+		"height": 57.0
 	},
 	"layout":
 	{
@@ -1225,6 +1426,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -1235,6 +1442,7 @@
 		"rows":
 		[
 			0.0,
+			0.482564102564,
 			1.0
 		]
 	},
@@ -1251,7 +1459,7 @@
 	"project": "mywebsite.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1281,7 +1489,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

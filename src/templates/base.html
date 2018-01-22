@@ -1,12 +1,14 @@
 <!doctype html>
+{% load static %}
 <html lang="en">
 	<head>
 		<title> zoilo.me </title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		{% include 'snippets/css.html' %}
-		<div class='container'><h1> Zoilo Mercedes </h1></div>
 	</head>
 	<body>
-		<div class='container'>
+		<div class='container-fluid'>
 			{% block content %}{% endblock content %}
 		</div>
 		{% include 'snippets/js.html' %}

@@ -6,3 +6,7 @@ Scripts/
 # Specific Files
 pip-selfcheck.json
 pyvenv.cfg
+
+# media
+*.mp4
+*.png
