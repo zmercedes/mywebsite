@@ -9,4 +9,8 @@ pyvenv.cfg
 
 # media
 *.mp4
-*.png
+*.png
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
