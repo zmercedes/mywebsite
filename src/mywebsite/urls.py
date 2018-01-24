@@ -18,11 +18,11 @@ from django.contrib import admin
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.views.generic import TemplateView
 
-from sitelist.views import home
+from sitelist.views import HomeView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', home),
+    url(r'^$', HomeView.as_view()),
     url(r'^bootstrap/$', TemplateView.as_view(template_name="bootstrap/example.html")),
 ]
 

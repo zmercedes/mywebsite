@@ -8,8 +8,11 @@
 		{% include 'snippets/css.html' %}
 	</head>
 	<body>
-		<div class="container-fluid">
+		{% include 'snippets/menu.html' %}
+		<div class="container-fluid order-1">
 			{% block content %}{% endblock content %}
+		</div>
+		<div class="container-fluid order-2">
 		</div>
 		{% include 'snippets/js.html' %}
 	</body>

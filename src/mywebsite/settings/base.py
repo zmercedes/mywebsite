@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
         'zoilome-env.dhc9ffrmzc.us-east-1.elasticbeanstalk.com',
-]
+        'localhost',
+]       
 
 
 # Application definition
