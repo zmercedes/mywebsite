@@ -25,7 +25,9 @@ SECRET_KEY = 'ku^l+o1i-x-6mkl%81*fklh*obl55xqsjvv$sc^v%d(2y#kzm0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+        'zoilome-env.dhc9ffrmzc.us-east-1.elasticbeanstalk.com',
+]
 
 
 # Application definition
