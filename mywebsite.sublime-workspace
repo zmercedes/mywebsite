@@ -595,7 +595,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 105,
+				"buffer_size": 215,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -689,13 +689,12 @@
 	"expanded_folders":
 	[
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/mywebsite",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/mywebsite/settings",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/sitelist"
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/.ebextensions",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/.elasticbeanstalk"
 	],
 	"file_history":
 	[
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/.ebextensions/django.config",
 		"/C/Users/Zoilo/Documents/Sprites_Unity/Assets/scripts/professorController.cs",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets/sidebar.html",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/requirements.txt",
@@ -822,12 +821,11 @@
 		"/C/Users/Zoilo/Documents/zelda_mockup/Assets/scripts/generatePickup.cs",
 		"/C/Users/Zoilo/Dropbox/code/generatePickup.cs",
 		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/meshGen.cs",
-		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/mapGen.cs",
-		"/C/Users/Zoilo/Dropbox/code/controller.cs"
+		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/mapGen.cs"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -1001,7 +999,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1029,7 +1027,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1045,8 +1043,8 @@
 						"selection":
 						[
 							[
-								159,
-								159
+								98,
+								98
 							]
 						],
 						"settings":
@@ -1057,7 +1055,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1084,7 +1082,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 110.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1117,7 +1115,7 @@
 						"translation.y": 2649.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1202,10 +1200,10 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 182.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1230,10 +1228,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 370.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1242,15 +1240,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 105,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								106,
+								106
 							]
 						],
 						"settings":
@@ -1258,16 +1256,16 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1296,7 +1294,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1326,7 +1324,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1342,8 +1340,8 @@
 						"selection":
 						[
 							[
-								256,
-								256
+								98,
+								29
 							]
 						],
 						"settings":
@@ -1354,7 +1352,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1398,8 +1396,8 @@
 						"selection":
 						[
 							[
-								26,
-								26
+								121,
+								121
 							]
 						],
 						"settings":
@@ -1410,7 +1408,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1426,8 +1424,8 @@
 						"selection":
 						[
 							[
-								252,
-								252
+								430,
+								430
 							]
 						],
 						"settings":
@@ -1439,7 +1437,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1478,7 +1476,7 @@
 		"rows":
 		[
 			0.0,
-			0.446004962779,
+			0.512671629446,
 			1.0
 		]
 	},
@@ -1533,7 +1531,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 188.0,
+	"side_bar_width": 184.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

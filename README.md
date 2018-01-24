@@ -9,6 +9,7 @@ Progress thus far:
 6. added snippets to use `{% include %}` with
 7. added boostrap elements and started building page.
 8. added video of dragon curve python turtle sketch as background
+9. deployed, tested, needs work
 
 To Do:
 1. Understand django apps

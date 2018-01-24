@@ -2,15 +2,14 @@
 Include/
 Lib/
 Scripts/
+src/static/
 
 # Specific Files
 pip-selfcheck.json
 pyvenv.cfg
 
-# media
-*.mp4
-*.png
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
