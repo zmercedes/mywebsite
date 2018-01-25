@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: zoilome-env
+    environment: null
     group_suffix: null
 environment-defaults:
   zoilome-env:

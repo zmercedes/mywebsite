@@ -26,7 +26,7 @@ SECRET_KEY = 'ku^l+o1i-x-6mkl%81*fklh*obl55xqsjvv$sc^v%d(2y#kzm0'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-        'zoilome-env.kknqaq7wpm.us-east-1.elasticbeanstalk.com',
+        'zoilome-env.up8tvbz4xu.us-east-1.elasticbeanstalk.com',
         'localhost',
 ]       
 

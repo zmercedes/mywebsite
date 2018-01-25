@@ -7,9 +7,9 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		{% include 'snippets/css.html' %}
 	</head>
-	<body>
+	<body onLoad="window.scroll(0, 0)">
 		{% include 'snippets/menu.html' %}
-		<section id="home" style="background: none">
+		<section id="home">
 			<div class="container-fluid">
 				<div class="row">
 					{% include 'snippets/home.html' %}
@@ -19,14 +19,14 @@
 		<section id="projects">
 			<div align="center" class="row">
 				<div class="col-md-12">
-					<p>Putting some stuff in here about projects</p>
+					{% include 'snippets/projects.html' %}
 				</div>
 			</div>
 		</section>
 		<section id="about">
 			<div align="center" class="row">
 				<div class="col-md-12">
-					<p>Putting some stuff in here about me</p>
+					{% include 'snippets/about.html' %}
 				</div>
 			</div>
 		</section>
