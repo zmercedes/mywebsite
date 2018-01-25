@@ -9,11 +9,27 @@
 	</head>
 	<body>
 		{% include 'snippets/menu.html' %}
-		<div class="container-fluid order-1">
-			{% block content %}{% endblock content %}
-		</div>
-		<div class="container-fluid order-2">
-		</div>
+		<section id="home" style="background: none">
+			<div class="container-fluid">
+				<div class="row">
+					{% include 'snippets/home.html' %}
+				</div>
+			</div>
+		</section>
+		<section id="projects">
+			<div align="center" class="row">
+				<div class="col-md-12">
+					<p>Putting some stuff in here about projects</p>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div align="center" class="row">
+				<div class="col-md-12">
+					<p>Putting some stuff in here about me</p>
+				</div>
+			</div>
+		</section>
 		{% include 'snippets/js.html' %}
 	</body>
 </html>

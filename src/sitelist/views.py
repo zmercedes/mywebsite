@@ -9,5 +9,5 @@ def home(request):
 	}	
 	return render(request,"snippets/menu.html",context) # response
 
-class HomeView(TemplateView):
-	template_name = "home.html"
+class BaseView(TemplateView):
+	template_name = "base.html"
