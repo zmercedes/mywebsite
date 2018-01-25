@@ -11,7 +11,11 @@ Progress thus far:
 8.  added video of dragon curve python turtle sketch as background
 9.  deployed, tested, needs work
 10. learning about bootstrap, refactor
+11. attempted to implement reactive design
+12. reactive design implemented
 
 To Do:
 1. Understand django apps
 2. Understand python modules
+3. Polish/refactor
+4. add content
