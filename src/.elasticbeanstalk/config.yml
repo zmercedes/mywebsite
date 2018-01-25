@@ -7,7 +7,7 @@ environment-defaults:
     branch: null
     repository: null
 global:
-  application_name: zoilome
+  application_name: zoilo.me
   branch: null
   default_ec2_keyname: zmercedes
   default_platform: python3.6
