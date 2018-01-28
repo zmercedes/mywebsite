@@ -2,8 +2,8 @@
  * Zoilo Mercedes
  * page.css
  *
- *****************************************/
-/*
+ *****************************************
+ *
  * 100vh = 100% of viewport height
  */
 section {
@@ -28,19 +28,17 @@ video {
     height: 200%;
     z-index: -100;
 }
-.left {
-	position: fixed;
-	color: #000000;
-	left: 10%;
-	top: 40%;
-}
 div.transbox {
   background-color: rgba(0, 0, 0, 0.6);
+  width: 200;
   border-radius: 8px;
 }
 #projects {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding: 60px 15px;
+}
+#project{
+	
 }
 #about {
 	background-color: rgba(0, 0, 0, 0.8);;
