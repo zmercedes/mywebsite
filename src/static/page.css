@@ -38,7 +38,7 @@ div.transbox {
 	padding: 60px 15px;
 }
 #project{
-	
+	min-height: 200px;
 }
 #about {
 	background-color: rgba(0, 0, 0, 0.8);;
