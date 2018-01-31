@@ -13,6 +13,7 @@ Progress thus far:
 10. learning about bootstrap, refactor
 11. attempted to implement reactive design
 12. reactive design implemented
+13. adding content
 
 To Do:
 1. Understand django apps
