@@ -20,3 +20,4 @@ To Do:
 2. Understand python modules
 3. Polish/refactor
 4. add content
+5. backend polish/refactor

@@ -9,6 +9,12 @@
 	</head>
 	<body>
 		{% include 'snippets/menu.html' %}
+		<div align="center" class="video-container">
+		    <video autoplay muted loop>
+		        <source src="/static/dragonting.mp4" type="video/mp4"> </source>
+		        <source src="/static/dragonting.webm" type="video/webm"> </source>
+		    </video>
+		</div>
 		<section id="home">
 			<div class="container-fluid">
 				{% include 'snippets/home.html' %}

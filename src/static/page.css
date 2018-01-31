@@ -9,6 +9,7 @@
 section {
 	display: block;
 	min-height: 100vh;
+	padding: 60px 15px;
 }
 video {
 	position: absolute;
@@ -35,13 +36,8 @@ div.transbox {
 }
 #projects {
 	background-color: rgba(255, 255, 255, 0.8);
-	padding: 60px 15px;
-}
-#project{
-	min-height: 200px;
 }
 #about {
 	background-color: rgba(0, 0, 0, 0.8);;
 	color: #fff;
-	padding: 60px 15px;
 }
