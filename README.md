@@ -14,6 +14,7 @@ Progress thus far:
 11. attempted to implement reactive design
 12. reactive design implemented
 13. adding content
+14. production ready?
 
 To Do:
 1. Understand django apps
