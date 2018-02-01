@@ -9,7 +9,7 @@
 section {
 	display: block;
 	min-height: 100vh;
-	padding: 60px 15px;
+	padding-top: 60px;
 }
 video {
 	margin: auto;
@@ -26,6 +26,10 @@ img {
 }
 p {
 	text-align: justify;
+	padding: 5px;
+}
+h5 {
+	text-align: center;
 }
 .video-container {
 	background-color: #000;
@@ -39,6 +43,9 @@ p {
     z-index: -100;
     overflow: hidden;
 }
+img.project {
+	margin: 10px;
+}
 div.transbox {
   background-color: rgba(0, 0, 0, 0.6);
   width: 200;
@@ -48,10 +55,14 @@ div.links{
 	padding: 5px 5px;
 }
 #projects {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(255, 255, 255, 0.75);
 }
 #about {
-	background-color: rgba(0, 0, 0, 0.8);;
+	background-color: rgba(0, 0, 0, 0.75);
 	color: #fff;
+}
+#home {
+	color: #fff;
+	padding-top: 20%;
 }
 
