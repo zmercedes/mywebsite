@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import hashlib
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -20,7 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ku^l+o1i-x-6mkl%81*fklh*obl55xqsjvv$sc^v%d(2y#kzm0'
+with open(os.path.join(os.pardir, "secret/secret_key.txt"), 'r') as secret_file:
+    SECRET_KEY = secret_file.read()
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -133,5 +135,3 @@ STATICFILES_FINDERS = (
 STATIC_URL = '/static/'
 
 STATIC_ROOT = ''
-
-STATIC_URL = '/static/'

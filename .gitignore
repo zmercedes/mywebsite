@@ -3,6 +3,7 @@ Include/
 Lib/
 Scripts/
 src/static/
+secret/
 
 # Specific Files
 pip-selfcheck.json
@@ -13,3 +14,4 @@ pyvenv.cfg
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
+*.pyc

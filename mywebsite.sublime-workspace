@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"col",
+				"col-md-3"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"wor",
+				"word-wrap"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"object",
 				"object-fit"
 			],
@@ -490,30 +514,6 @@
 			[
 				"ve",
 				"vertexB"
-			],
-			[
-				"GetCo",
-				"GetConnectedOutlineVertex"
-			],
-			[
-				"vertexInde",
-				"vertexIndex"
-			],
-			[
-				"vertexInd",
-				"vertexIndex"
-			],
-			[
-				"containing",
-				"containingVertex"
-			],
-			[
-				"sahre",
-				"sharedTriangleCount"
-			],
-			[
-				"vertexIn",
-				"vertexIndex"
 			]
 		]
 	},
@@ -574,19 +574,10 @@
 			}
 		},
 		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 597,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/static/page.css",
 			"settings":
 			{
-				"buffer_size": 317,
+				"buffer_size": 1035,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -601,37 +592,19 @@
 			}
 		},
 		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 803,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 474,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/snippets/home.html",
-			"settings":
-			{
-				"buffer_size": 244,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/snippets/css.html",
-			"settings":
-			{
-				"buffer_size": 256,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/snippets/js.html",
-			"settings":
-			{
-				"buffer_size": 586,
+				"buffer_size": 1081,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -640,10 +613,37 @@
 			"file": "src/templates/snippets/menu.html",
 			"settings":
 			{
-				"buffer_size": 528,
+				"buffer_size": 1600,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<div class=\"dropdown show\">"
+			}
+		},
+		{
+			"file": "src/templates/snippets/home.html",
+			"settings":
+			{
+				"buffer_size": 855,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/snippets/projects.html",
+			"settings":
+			{
+				"buffer_size": 4455,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/snippets/about.html",
+			"settings":
+			{
+				"buffer_size": 2215,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -682,13 +682,17 @@
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/.ebextensions",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/mywebsite",
-		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/mywebsite/settings",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets"
 	],
 	"file_history":
 	[
+		"/C/Users/Zoilo/Documents/Overwatch/Settings/Settings_v0.ini",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets/footer.html",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets/js.html",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/snippets/css.html",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/static/pageScroll.js",
+		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/base.html",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/bootstrap/example.html",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/templates/home.html",
 		"/C/Users/Zoilo/Documents/PythonDev/mywebsite/src/.ebextensions/django.config",
@@ -810,17 +814,11 @@
 		"/C/Users/Zoilo/Documents/cemu_1.7.5/keys.txt",
 		"/C/Users/Zoilo/AppData/Local/Temp/7zO09233BFB/app.xml",
 		"/C/Users/Zoilo/Dropbox/pokes.txt",
-		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/.gitignore",
-		"/D/Downloads/hi-beanthba/README.txt",
-		"/D/.gitignore_global",
-		"/C/Users/Zoilo/Dropbox/code/generateObject.cs",
-		"/C/Users/Zoilo/Documents/procedural_original/Assets/MeshGenerator.cs",
-		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/mapGen.cs",
-		"/C/Users/Zoilo/Documents/zelda_mockup/Assets/scripts/generatePickup.cs"
+		"/C/Users/Zoilo/Documents/procedural_generation_trial/Assets/scripts/.gitignore"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -834,6 +832,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\n",
+			"col-md-7",
+			"col-md-6",
+			"div",
+			"z-inde",
+			"dropdown",
+			"h1",
 			"media",
 			"false",
 			"placeobject",
@@ -954,14 +959,7 @@
 			"gen",
 			"generatemap",
 			"GenerateObject",
-			"generateobject",
-			"generateobject'",
-			"date",
-			"generate2dcoll",
-			"rand",
-			"270",
-			"generateobjec",
-			"generate"
+			"generateobject"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -994,7 +992,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1022,7 +1020,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -1050,7 +1048,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -1077,10 +1075,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 359.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1096,8 +1094,8 @@
 						"selection":
 						[
 							[
-								949,
-								949
+								916,
+								916
 							]
 						],
 						"settings":
@@ -1107,10 +1105,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 521.0,
+						"translation.y": 529.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1137,10 +1135,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 423.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1156,8 +1154,8 @@
 						"selection":
 						[
 							[
-								2172,
-								2174
+								621,
+								555
 							]
 						],
 						"settings":
@@ -1167,55 +1165,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 597,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								86,
-								86
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "src/static/page.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 1035,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								877,
+								877
 							]
 						],
 						"settings":
@@ -1223,14 +1193,14 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1106.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -1242,8 +1212,8 @@
 						"selection":
 						[
 							[
-								123,
-								123
+								97,
+								97
 							]
 						],
 						"settings":
@@ -1254,7 +1224,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								679,
+								679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1269,15 +1267,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 474,
+						"buffer_size": 1081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								248,
-								248
+								644,
+								644
 							]
 						],
 						"settings":
@@ -1286,91 +1284,95 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/templates/snippets/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								105
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div class=\"dropdown show\">",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "src/templates/snippets/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 244,
+						"buffer_size": 855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								244,
-								244
+								612,
+								612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/templates/snippets/css.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								98,
-								29
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 12,
-					"file": "src/templates/snippets/js.html",
+					"file": "src/templates/snippets/projects.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 586,
+						"buffer_size": 4455,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								507
+								1062,
+								1062
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 369.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1378,28 +1380,28 @@
 				},
 				{
 					"buffer": 13,
-					"file": "src/templates/snippets/menu.html",
+					"file": "src/templates/snippets/about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 528,
+						"buffer_size": 2215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								458,
+								458
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<div class=\"dropdown show\">",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 69.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1410,7 +1412,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1441,7 +1443,7 @@
 		"rows":
 		[
 			0.0,
-			0.479338296113,
+			0.170886925484,
 			1.0
 		]
 	},
@@ -1458,7 +1460,7 @@
 	"project": "mywebsite.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
