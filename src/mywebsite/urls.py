@@ -22,7 +22,7 @@ from sitelist.views import BaseView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', BaseView.as_view()),
+    url(r'^$', BaseView),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

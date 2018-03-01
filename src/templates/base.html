@@ -16,21 +16,7 @@
 		        <source src="/static/dragonting.ogg" type="video/ogg"></video>
 		    </video>
 		</div>
-		<section id="home">
-			<div class="container-fluid">
-				{% include 'snippets/home.html' %}
-			</div>
-		</section>
-		<section id="projects">
-			<div class="container-fluid">
-				{% include 'snippets/projects.html' %}
-			</div>
-		</section>
-		<section id="about">
-			<div class="container-fluid">
-				{% include 'snippets/about.html' %}
-			</div>
-		</section>
+		{% block content %} {% endblock content %}
 		{% include 'snippets/js.html' %}
 	</body>
 </html>

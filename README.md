@@ -16,6 +16,7 @@ Progress thus far:
 13. adding content
 14. production ready? no
 15. polish/refactor x 500
+16. added django model for project
 
 To Do:
 1. Understand django apps

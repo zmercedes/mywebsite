@@ -4,5 +4,7 @@ from django.views.generic import TemplateView
 
 from .models import Project
 
-class BaseView(TemplateView):
-	template_name = "base.html"
+def BaseView(request):
+	template_name = "content.html"
+	queryset = Project.objects.all()
+	return render(request,template_name, { "project_list" : list(queryset) })

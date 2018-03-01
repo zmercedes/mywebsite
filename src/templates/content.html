@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section id="home">
+	<div class="container-fluid">
+		{% include 'snippets/home.html' %}
+	</div>
+</section>
+<section id="projects">
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-9" align="center">
+				<h1>Projects</h1>
+			</div>
+		</div>
+		{% for project in project_list %}
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-6">
+					<div class="alert alert-secondary" role="alert">
+						<div class="row justify-content-center">
+							<img src={{ project.img_location }} class="project" alt="VRP" title="Scene from project" width="150" height="150">
+							<div class="col-12 col-md-7">
+								<h5>{{ project.name }}</h5>
+								<p>{{ project.description }}</p>
+							</div>
+						</div>
+						{% if project.link_list %}
+							<div class="col-12 links" align="center">
+								links:<br>
+								{% for link in project.link_list %} 
+									<a href={{ link.1 }} target="_blank">
+								  		<img src={{ link.2 }} alt={{ link.0 }} title={{ link.0 }} width="42" height="42">
+									</a>
+								{% endfor %} 
+							</div>
+						{% endif %} 
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+<section id="about">
+	<div class="container-fluid">
+		{% include 'snippets/about.html' %}
+	</div>
+</section>
+{% endblock %}
