@@ -27,8 +27,8 @@ with open("secret/secret_key.txt", 'r') as secret_file:
 DEBUG = False
 
 ALLOWED_HOSTS = [
+        'zoilo.me',
         'zoilome-env.4eyh42mcz5.us-east-1.elasticbeanstalk.com',
-        'localhost',
 ]    
 
 # Application definition
