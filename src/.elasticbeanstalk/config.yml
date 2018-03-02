@@ -1,6 +1,10 @@
 branch-defaults:
   default:
-    environment: null
+    environment: zoilome-env
+environment-defaults:
+  zoilome-env:
+    branch: null
+    repository: null
 global:
   application_name: zoilo.me
   branch: null
