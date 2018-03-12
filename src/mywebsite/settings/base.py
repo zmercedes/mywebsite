@@ -27,10 +27,7 @@ with open("secret/secret_key.txt", 'r') as secret_file:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-        'zoilome-env.4eyh42mcz5.us-east-1.elasticbeanstalk.com',
-        'localhost',
-]       
+ALLOWED_HOSTS = []       
 
 # Application definition
 
